@@ -1,0 +1,6 @@
+// The following code requests the data sent by the user as credentials and then allow them to get saved into a cookie
+function persistLogin($username,$password){
+    $data=array("username"=$username,"password"=$password);
+        setcookie("userdata",$data);
+}
+// Next we will talk about the Missing data Encryption technique
